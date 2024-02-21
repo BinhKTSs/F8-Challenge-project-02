@@ -1,0 +1,206 @@
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #1ebfc1;
+    --heading-font: "Poppins", sans-serif;
+}
+input,
+textarea,
+button {
+    font: inherit;
+}
+/*==================== common  ===========*/
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+a:hover,
+.btn:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 50px);
+    margin: 0px auto;
+}
+/*==================== Heading  ===========*/
+.header {
+    /* margin-top: 52px; */
+    position: sticky;
+    top: -52px;
+    background-color: #fff;
+}
+.header .row-header {
+    display: flex;
+    align-items: center;
+    padding: 52px 0px 8px;
+}
+
+.header .row-header .navbar .list-menu {
+    margin: 0px 167px 0px 230px;
+    display: flex;
+    gap: 35px;
+}
+.header .row-header .menu {
+    padding: 5px;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.85x;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2f3a3b;
+}
+.header .row-header .active-menu {
+    font-weight: 600;
+}
+.header .sign-up {
+    display: flex;
+    gap: 24px;
+}
+.header .sign-up .signing {
+    font-size: 1.6rem;
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    color: #494949;
+    width: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .sign-up .btn {
+    width: 108px;
+    height: 48px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #fff;
+}
+.header .sign-up .btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+/*==================== hero  ===========*/
+.hero {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    gap: 136px;
+}
+.hero .hore-info {
+    width: 39.3%;
+}
+.hero .hore-info .sub-desc {
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.hero .hore-info .title {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.116129;
+}
+.hero .hore-info .desc {
+    width: 81.66%;
+    margin-top: 46px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.77778;
+}
+.hero .hore-info .cta {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 52px;
+}
+.hero .hore-info .cta .btn {
+    width: 186px;
+    line-height: 68px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.hero .hore-info .watch-video {
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hore-info .watch-video:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .img-hero {
+    width: calc((576 / 1170) * 100%);
+    position: relative;
+}
+.hero .img-hero .thumb-hero {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    background-color: #e0f7f6;
+}
+.hero .img-hero .course-icon {
+    width: 157px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 149px;
+    right: 459px;
+    padding: 17px 25px 18px;
+    gap: 16px;
+}
+.hero .img-hero .course-icon .desc-course-icon {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+.hero .img-hero .course-icon img {
+}
+.hero .img-hero .course-icon .desc-course-icon::after {
+    content: " ";
+    display: inline-block;
+    width: 28px;
+    height: 4px;
+    border-radius: 999px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
