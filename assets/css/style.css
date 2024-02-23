@@ -29,12 +29,35 @@ a:hover,
     max-width: calc(100% - 50px);
     margin: 0px auto;
 }
+/* h2 */
+.headinglv2 {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: calc(56 / 42); /* 133.333% */
+}
+/* Desc */
+.desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+/* Sub-desc */
+.sub-desc {
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(27 / 16); /* 168.75% */
+}
+
 /*==================== Heading  ===========*/
 .header {
     /* margin-top: 52px; */
     position: sticky;
     top: -52px;
     background-color: #fff;
+    z-index: 1;
 }
 .header .row-header {
     display: flex;
@@ -95,10 +118,11 @@ a:hover,
 }
 /*==================== hero  ===========*/
 .hero {
-    margin-top: 42px;
+    /* margin-top: 42px; */
     display: flex;
     align-items: center;
     gap: 136px;
+    padding: 42px 0px 79px;
 }
 .hero .hore-info {
     width: 39.3%;
@@ -137,11 +161,14 @@ a:hover,
     flex-shrink: 0;
     border-radius: 14px;
     background: #1ebfc1;
-    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
     font-weight: 600;
+}
+.hero .hore-info .cta .btn:hover {
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 .hero .hore-info .watch-video {
     width: 62px;
@@ -189,18 +216,157 @@ a:hover,
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
+}
+.hero .img-hero .book-icon {
     position: relative;
 }
-.hero .img-hero .course-icon img {
+.hero .img-hero .course-icon .img-course-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hero .img-hero .course-icon .desc-course-icon::after {
+.hero .img-hero .book-icon::after {
     content: " ";
     display: inline-block;
     width: 28px;
     height: 4px;
     border-radius: 999px;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 8px;
+    left: 4px;
 }
+.hero .Schedules-block {
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 453px;
+    right: 517px;
+    padding: 16px 25px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero .Schedules-block span {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.hero .Schedules-block .Schedules-01 {
+    margin-top: 16px;
+}
+.hero .Schedules-block .Schedules-02 {
+    margin-top: 12px;
+}
+.hero .Schedules-block .Schedules-03 {
+    margin-top: 10px;
+}
+.hero .Schedules-block .Schedules-04 {
+    margin-top: 16px;
+}
+
+.hero .Our-active-students {
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+    padding: 17px 0px 17px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 41px;
+    right: 45px;
+}
+.hero .Our-active-students span {
+    display: block;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.hero .Our-active-students .avatar-students {
+    display: flex;
+}
+
+.hero .Our-active-students .avatar {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -7px;
+}
+.hero .Our-active-students .avatar:first-child {
+    margin-left: 0px;
+}
+.hero .Our-active-students .more-avatar {
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*====================...............................=> Make-part-Features  ===========*/
+
+
+.feature {
+    padding-top: 130px;
+    width: calc((1024 / 1170) * 100%);
+}
+.feature .feature-higligh {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.feature .headinglv2 {
+    width: calc((557 / 1024) * 100%);
+    margin: 18px 0px;
+}
+.feature .desc {
+    width: calc((590 / 1024) * 100%);
+    line-height: normal;
+}
+
+.feature .list-feature {
+    padding-top: 80px;
+    display: flex;
+}
+
+.feature .heading-feature-item {
+    margin: 26px 0px 16px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.feature .live-chat .sub-desc {
+    width: 168px;
+}
+.feature .discuss {
+    margin-left: 209px;
+}
+.feature .discuss .sub-desc {
+    width: 223px;
+}
+.feature .task {
+    margin-left: 200px;
+}
+.feature .task .sub-desc {
+    width: 224px;
+}
+
+
+/*====================...............................=> Make-part-Features  ===========*/
