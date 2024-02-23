@@ -635,3 +635,75 @@ a:hover,
     font-style: normal;
     font-weight: 600;
 }
+
+/* <!-- =======================Make-Foodter-===================== --> */
+.Footer {
+    padding-top: 130px;
+}
+.Footer .main-content {
+    display: flex;
+}
+.Footer .main-content h3 {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.Footer .company {
+    margin-left: 144px;
+}
+.Footer .main-content ul {
+    margin-top: 25px;
+}
+.Footer .main-content li a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.Footer .main-content li .Careers {
+    margin-top: 20px;
+}
+.Footer .main-content li .Press {
+    margin-top: 19px;
+}
+
+.Footer .community {
+    margin-left: 144px;
+    padding-bottom: 1px;
+}
+.Footer .Blog,
+.Footer .Schoolarships,
+.Footer .Teaching-academy {
+    margin-top: 18px;
+}
+.Footer .Students {
+    margin-top: 21px;
+}
+
+.Footer .teaching {
+    margin-left: 144px;
+    padding-bottom: 1;
+}
+.Footer .be-social {
+    margin-left: 127px;
+}
+.Footer .be-social li {
+    margin-top: 18px;
+}
+.Footer .be-social li a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.Footer .coppy-right {
+    text-align: center;
+    margin: 80px auto 50px;
+    display: block;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
