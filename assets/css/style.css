@@ -420,13 +420,12 @@ a:hover,
     background: #fff;
 
     position: absolute;
-    bottom: -71px;
+    top: 322px;
     left: 17px;
     padding: 18px 0px 0px 25px;
-}
-.popular-course .info-course-item:hover {
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
+
 .popular-course .info-course-item .title {
     color: #0d1111;
     font-size: 2.2rem;
@@ -470,4 +469,28 @@ a:hover,
     height: 6px;
     border-radius: 50%;
     background-color: #1ebfc1;
+}
+
+/*====================...............................=> Make-part-Popular-course  ===========*/
+.countdown {
+    margin: 389px auto 0px;
+    width: calc((862 / 1170) * 100%);
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.countdown span {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.countdown p {
+    margin-top: 11px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
 }
