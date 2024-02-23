@@ -320,12 +320,12 @@ a:hover,
 
 /*====================...............................=> Make-part-Features  ===========*/
 
-
 .feature {
     padding-top: 130px;
     width: calc((1024 / 1170) * 100%);
 }
-.feature .feature-higligh {
+.feature .feature-higligh,
+.popular-course .popular-hightligh {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
@@ -368,5 +368,106 @@ a:hover,
     width: 224px;
 }
 
+/*====================...............................=> Make-part-Popular-course  ===========*/
+.popular-course {
+    margin-top: 130px;
+}
+.popular-course .headinglv2 {
+    margin: 18px 0px;
+}
+.popular-course .row-desc {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular-course .row-desc .desc {
+    width: calc((525 / 1170) * 100%);
+    line-height: normal;
+}
 
-/*====================...............................=> Make-part-Features  ===========*/
+.popular-course .row-desc a {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.popular-course .list-course {
+    margin-top: 130px;
+    display: flex;
+    gap: 47px;
+}
+.popular-course .course-item {
+    width: calc((100% - 94px) / 3);
+    position: relative;
+}
+.popular-course .course-item .thumb {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.popular-course .course-item a:hover {
+    opacity: 0.35;
+    background: #d0efed;
+}
+.popular-course .info-course-item {
+    width: 325px;
+    height: 195px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+
+    position: absolute;
+    bottom: -71px;
+    left: 17px;
+    padding: 18px 0px 0px 25px;
+}
+.popular-course .info-course-item:hover {
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+.popular-course .info-course-item .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.popular-course .info-course-item .price {
+    margin-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.popular-course .info-course-item .price strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.popular-course .info-course-item .desc-course-item {
+    margin-top: 6px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.popular-course .info-course-item .bottom-row-course-item {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.popular-course .info-course-item .bottom-row-course-item span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.popular-course .info-course-item .bottom-row-course-item span::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #1ebfc1;
+}
