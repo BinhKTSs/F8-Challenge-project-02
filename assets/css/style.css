@@ -494,3 +494,114 @@ a:hover,
     font-weight: 400;
     line-height: normal;
 }
+/*====================...............................=> Make-part-Testimonial  ===========*/
+.list-testimonial {
+    margin-top: 264px;
+    display: flex;
+}
+.testimonial-item-01 {
+    display: flex;
+    align-items: center;
+}
+.testimonial-item-01 .content-testimonial {
+    width: calc((419 / 1170) * 100%);
+}
+.list-testimonial .quote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.list-testimonial .nick-name {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+.list-testimonial .nick-name strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.list-testimonial .nick-name strong::before {
+    content: "";
+    background: #070707;
+    width: 8px;
+    height: 2px;
+    flex-shrink: 0;
+}
+.list-testimonial .contro {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.list-testimonial .contro .contro-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.list-testimonial .contro .contro-btn:hover {
+    opacity: 50%;
+}
+.testimonial-item-01 .avatar {
+    width: calc((751 / 1170) * 100%);
+    height: 100%;
+    position: relative;
+}
+.testimonial-avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+.testimonial-item-01 .avatar .main-avatar {
+    width: 235px;
+    height: 235px;
+    position: absolute;
+    top: 107px;
+    left: 345px;
+}
+.testimonial-item-01 .avatar .avatar-02 {
+    word-wrap: 100px;
+    height: 100px;
+    top: 19px;
+    right: 0px;
+}
+.testimonial-item-01 .avatar .avatar-03,
+.testimonial-item-01 .avatar .avatar-04,
+.testimonial-item-01 .avatar .avatar-05 {
+    width: 78px;
+    height: 78px;
+}
+.testimonial-item-01 .avatar .avatar-03 {
+    bottom: 29px;
+    right: 32px;
+}
+.testimonial-item-01 .avatar .avatar-04 {
+    bottom: 0px;
+    left: 284px;
+}
+.testimonial-item-01 .avatar .avatar-05 {
+    left: 72px;
+    top: 145px;
+}
+.testimonial-item-01 .avatar .avatar-06 {
+    width: 92px;
+    height: 92px;
+    top: 0px;
+    left: 216px;
+}
